@@ -1,0 +1,67 @@
+
+
+
+body {
+  font-size: 36px;
+	letter-spacing: 1px;
+	color: #e7ecef;
+	line-height: 2,3px ;
+    font-family: 'Cotham Sans', sans-serif;
+    text-decoration-style: none;}
+a:link {
+  text-decoration: none;
+}
+
+a {
+ 	text-orientation: none ;
+ 	text-decoration-style: none;
+ 	color: #e7ecef;
+
+ }
+
+ a:hover {
+ 	color: #5cff0a;
+
+ }
+
+#scroll-container {
+  border: 0px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
