@@ -7,11 +7,14 @@ body {
 	color: #e7ecef;
 	line-height: 2,3px ;
     font-family: 'Cotham Sans', sans-serif;
-    text-decoration-style: none;
+	text-decoration-style: none;}
+p {
 padding: 5px;
 	margin-top : 20px;
 	margin-bottom : 15px;
 	margin-left : 10px;}
+
+
 a:link {
   text-decoration: none;
   
