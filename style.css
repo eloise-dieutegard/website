@@ -34,66 +34,7 @@ a {
  a:hover {
  	color: #5cff0a;
 	 transition: 0.1s;
-	 span {
-  animation: skewText .75s linear infinite;
 }
-@keyframes  skewText {
-  0%, 100% {
-    -webkit-transform: skewY(35deg);
-       -moz-transform: skewY(35deg);
-        -ms-transform: skewY(35deg);
-         -o-transform: skewY(35deg);
-            transform: skewY(35deg);
-  }
-  50% {
-    -webkit-transform: skewY(-35deg);
-       -moz-transform: skewY(-35deg);
-        -ms-transform: skewY(-35deg);
-         -o-transform: skewY(-35deg);
-            transform: skewY(-35deg);
-  }
-}
-
- }
-
-#scroll-container {
-  border: 0px solid black;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-#scroll-text {
-  /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
   
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
-}
 
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
 
