@@ -37,4 +37,19 @@ a {
 }
   
 
+#scroll-container {
+  border: 0px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
