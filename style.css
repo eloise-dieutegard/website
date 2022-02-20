@@ -7,7 +7,10 @@ body {
 	color: #e7ecef;
 	line-height: 2,3px ;
     font-family: 'Cotham Sans', sans-serif;
-	text-decoration-style: none;}
+	text-decoration-style: none;
+	display: flex;
+
+}
 p {
 padding: 20px;
 	margin-top : 5px;
@@ -38,8 +41,7 @@ a {
   border-bottom: 0;
   padding-bottom: .3em;
   text-decoration: none;
-	 
-
+	
  }
 
 #scroll-container {
