@@ -10,16 +10,16 @@ body {
 	text-decoration-style: none;
 	padding: 0.5rem;
 	display: block;
-    margin: 8px;
+    
 }
 
 }
 
 p {
-padding: 20px;
+padding: 45px;
 	margin-top : 0px;
 	margin-bottom : 15px;
-	margin-left : 0px;}
+	}
 
 a:link {
   text-decoration: none;
