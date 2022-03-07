@@ -2,7 +2,7 @@
 
 
 body {
-  font-size: 45px;
+  font-size: 75px;
 	letter-spacing: 1px;
 	color: #e7ecef;
 	line-height: 2,3px ;
@@ -10,13 +10,14 @@ body {
 	text-decoration-style: none;
 	padding: 0.5rem;
 	display: block;
+	margin: 8px;
     
 }
 
 }
 
 p {
-padding: 45px;
+
 	margin-top : 0px;
 	margin-bottom : 15px;
 	}
