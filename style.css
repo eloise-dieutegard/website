@@ -1,20 +1,98 @@
 
+html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
 
+.header {
+  z-index: -1;
+  visibility: show;
+  object-fit: cover;
+  position: fixed;
+  height: 114px;
+}
+.about {
+  font-family: "Averia Gruesa Libre", cursive;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  position: fixed;
+  width: 532px;
+  height: 354px;
+  margin-left: 60%;
+  line-height: 18px;
+  margin-top: 188px;
+  color: #000000;
+}
 
-body {
-  font-size: 36px;
-	letter-spacing: 1px;
-	color: #e7ecef;
-	
-    font-family: 'Cotham Sans', sans-serif;
-    text-decoration-style: none;
-  }
+.p {
+  font-family: "Averia Gruesa Libre", cursive;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+}
 
-  p {
-  width: 72% ;
-  text-align: left;
+.name {
+  font-family: "Astloch", cursive;
+  /* font-weight: 200; */
+  font-size: 35px;
+  position: fixed;
+  width: 706px;
+  height: 114px;
+  left: 67px;
+  top: -31px;
+  line-height: 118px;
+  color: #000000;
+  z-index: -1;
+  font-weight: lighter;
+  visibility: show;
+  object-fit: cover;
+  position: fixed;
+}
+.h1 {
+  z-index: -1;
+  visibility: show;
+  object-fit: cover;
+  position: fixed;
+}
+
+.image-container {
+  float: left;
+  width: 51%;
   margin-left: 3%;
- }
+  margin-block-start: 13%;
+  font-family: "Averia Gruesa Libre", cursive;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+}
+.img {
+  position: relative;
+  width: 679px;
+  height: 966px;
+}
+
+.insta {
+  position: fixed;
+  font-family: "Averia Gruesa Libre";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  text-decoration: none;
+}
+
 
 a:link {
   text-decoration: none;
@@ -23,7 +101,7 @@ a:link {
 a {
  	text-orientation: none ;
  	text-decoration-style: none;
- 	color: #e7ecef;
+ 	
 
  }
 
