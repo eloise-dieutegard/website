@@ -5,7 +5,20 @@ html {
 body::-webkit-scrollbar {
   display: none;
 }
-
+@font-face {
+  font-family: "Averia Gruesa Libre";
+  src: url("css/fonts/averia-gruesa-libre.eot");
+  src: url("css/fonts/averia-gruesa-libre.woff") format("woff"),
+       url("css/fonts/averia-gruesa-libre.otf") format("opentype"),
+       url("css/fonts/averia-gruesa-libres.svg#filename") format("svg");
+}
+ @font-face {
+  font-family: "Astloch";
+  src: url("css/fonts/astloch.eot");
+  src: url("css/fonts/astloch.woff") format("woff"),
+       url("css/fonts/astloch.otf") format("opentype"),
+       url("css/fonts/astloch.svg#filename") format("svg");
+}
 .header {
   z-index: -1;
   visibility: show;
